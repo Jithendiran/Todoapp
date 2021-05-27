@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/base"
+        android:padding="10dp"
+        >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLines="1"
+        android:text=" Sample text ......................"
+        android:textColor="@color/teal_200"
+
+        android:textSize="12pt"></TextView>
+
+        <CheckBox
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/verified_btn">
+
+        </CheckBox>
+
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_delete_24"
+            android:id="@+id/delete_btn">
+
+        </Button>
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_access_alarm_24"
+            android:id="@+id/alaram_btn">
+
+        </Button>
+
+    </LinearLayout>
+
+
